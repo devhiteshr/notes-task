@@ -1,0 +1,95 @@
+.note {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: inset -6px -4px 2px rgba(255, 255, 255, 0.03);
+  border-radius: 15px;
+  border: 1.5px solid rgba(5, 4, 4, 0.326);
+  color: black;
+  padding: 15px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  word-wrap: break-word;
+  min-width: 12rem;
+  max-height: 1rem;
+  
+}
+.note__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.note textarea {
+  black-space: pre-wrap;
+  background: transparent;
+  border: none;
+  color: black;
+  resize: none;
+  font-size: 18px;
+}
+.note textarea:focus {
+  outline: none;
+}
+.note textarea::placeholder {
+  color: black;
+}
+.note__save {
+  background: transparent;
+  transition: 0.1s ease-in-out;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.note__edit{
+    background: transparent;
+  transition: 0.1s ease-in-out;
+  border: 1.5px solid black;
+  border-radius: 10px;
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.note__delete {
+  cursor: pointer;
+}
+
+.note__edit{
+    cursor: pointer;
+    border:none;
+}
+
+.char__progress {
+  background-color: black !important;
+}
+
+.titleInput {
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid black;
+  height: 30px;
+  text-decoration: none;
+  color: black;
+}
+.titleInput::placeholder {
+  color: black;
+  font-size: large;
+}
+.titleInput > textarea:focus,
+input:focus {
+  outline: none;
+  color: black;
+}
+.editCard{
+  display: flex;
+  flex-direction: column;
+}
+
+
